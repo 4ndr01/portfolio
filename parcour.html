@@ -2,19 +2,67 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="css/styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+
     <title>Mon portfolio</title>
+
 </head>
-<body class="body2">
-<header>
-    <h1>Mon parcours</h1>
-    <div>
-        <a href='' download="C:\Users\marvl\Desktop\cv Marvin HOGUET 2019 (2).pdf">
-        <button class="button is outlined">Mon CV</button>
-        </a>
+<body class="parcours">
+<header class="parcourhead">
+    <div id="particles-js"></div>
+
+    <!-- stats - count particles -->
+    <div class="count-particles">
+        <span class="js-count-particles"></span>
+    </div>
+    <div class="content2">
+
+        <h1 class="title has-text-black-bis">Mon parcours</h1>
+
+
+        <div class="content2">
+            <a href='' download="C:\Users\marvl\Desktop\cv Marvin HOGUET 2019 (2).pdf">
+            <button class="button is-link is-outlined">Mon CV</button>
+         </a>
+        </div>
     </div>
 </header>
+<div class="columns">
+ <div class="column">
+    <div class="headline">
+        <img class="*l *-6" src="https://th.bing.com/th/id/OIP.SPFvGJD4eNJfi5NAZpID-gHaFx?w=206&h=180&c=7&r=0&o=5&dpr=1.25&pid=1.7">
+    </div>
+    <script>
+    ScrollReveal().reveal('.headline');
+    </script>
+     </div>
+    <div class="column">
+        <div class="headline2">
+            <img src="https://th.bing.com/th/id/OIP.ZDnw534NvXAVG_5ot11tDQHaEc?w=277&h=180&c=7&r=0&o=5&dpr=1.25&pid=1.7">
+        </div>
+        <script>
+            ScrollReveal().reveal('.headline2', { delay: 500 });
+        </script>
+    </div>
+<div class="column">
+    <div class="headline3">
+        <h2>J'ai étudié à rennes1 à l'istic </h2>
+        <img src="https://th.bing.com/th/id/OIP.ZLj7QldCO19Qrku27Oq_ogHaCD?w=349&h=97&c=7&r=0&o=5&dpr=1.25&pid=1.7">
+    </div>
 
+    <script>
+        ScrollReveal().reveal('.headline3',{delay:1000});
+    </script>
+</div>
+
+
+</div>
 </body>
+<script src="script.js"></script>
+<script src="https://unpkg.com/scrollreveal"></script>
+<script src="particles.js-master/particles.js"></script>
+<script src="script.js"></script>
 </html>

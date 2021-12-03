@@ -1,0 +1,1 @@
+const myScroll = new LocomotiveScroll();
